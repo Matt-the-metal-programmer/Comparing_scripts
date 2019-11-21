@@ -1,4 +1,9 @@
+import time
 import sys
 import os
+import re
 
-os.system('python3 Test.py > test.txt')
+f = open("Test.py","r")
+filedata = f.read()
+for m in re.finditer("print",filedata):
+    
