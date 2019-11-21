@@ -1,3 +1,5 @@
 print("hello world")
-print("stuff")
-print("Fuck")
+f = input("Stuff    ")
+print(f)
+#print("stuff")
+
